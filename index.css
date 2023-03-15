@@ -51,8 +51,8 @@ body {
 }
 
 .map {
-    aspect-ratio: 16/13;
-    width: 80%;
+    aspect-ratio: 16/10;
+    width: 75%;
     background-color: rgb(11, 2, 36);
     margin: auto; 
     display: block;
