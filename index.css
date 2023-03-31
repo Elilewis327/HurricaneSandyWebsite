@@ -1,5 +1,5 @@
 body {
-    background-color: #1b1b1b;
+    background-color: #1b1b1b !important;
     color: white;
     font-family: 'Georgia';
 }
@@ -52,7 +52,7 @@ body {
 
 .map {
     aspect-ratio: 16/10;
-    width: 75%;
+    width: 85%;
     background-color: rgb(11, 2, 36);
     margin: auto; 
     display: block;
@@ -90,4 +90,8 @@ body {
 ul {
     display: inline-block;
     text-align: left;
+}
+
+.noscroll {
+    overflow: hidden !important;
 }
